@@ -1,0 +1,26 @@
+{
+  "name": "vero",
+  "version": "1.0.0",
+  "description": "A text platform for writing theories and scientific evaluation;",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-mdy-m/Vero.git"
+  },
+  "keywords": [
+    "platform",
+    "chat"
+  ],
+  "author": "Genix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m-mdy-m/Vero/issues"
+  },
+  "homepage": "https://github.com/m-mdy-m/Vero#readme"
+}
