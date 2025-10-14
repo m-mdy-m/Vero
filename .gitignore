@@ -1,0 +1,10 @@
+# dependencies
+node_modules/
+
+# bundle
+dist
+# misc
+.DS_Store
+.idea/
+.vscode/
+*.tgz
