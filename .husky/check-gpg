@@ -1,0 +1,12 @@
+#!/bin/bash
+lhash=$(git rev-parse HEAD)
+sig_status=$(git verify-commit "$lhash" 2>&1 || true)
+
+if [[ $sig_status != "Good Signature" ]]; then
+    echo "Error: Your last commit is not GPG"
+    echot "Please sign it: git commit -S"
+    exit 1
+fi
+
+echo "GPG signature verified"
+
