@@ -1,5 +1,5 @@
-run tests
-migrate
-run dev start
-run unit/integration/smoke/,,,,, tests
-
+# Initial setup script
+# Seed database
+# Backup script
+# Deploy to staging
+# Deploy to production
