@@ -2,7 +2,7 @@
 ## Vero: Peer-Reviewed Knowledge Platform
 
 **Version:** 1.0  
-**Date:** 2025-11-05  
+**Date:** 2025-11-07
 **Author:** Mahdi <bitsgenix@gmail.com>  
 **Status:** Draft  
 **Confidentiality:** Internal
