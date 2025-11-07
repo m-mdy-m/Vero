@@ -2,7 +2,7 @@
 
 > Peer-reviewed knowledge platform for technical practitioners
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](docs/guides/CONTRIBUTING.md)
 
 Vero is a text-based social platform idea — CLI-first, dev-friendly, and designed for sharing thoughts, theories, and structured discussions.  
