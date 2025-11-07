@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ❓ Support Questions
+    url: https://stackoverflow.com/questions/tagged/vero
+    about: 'Please ask and answer support questions here instead of opening an issue.'
+  - name: 💬 Community Discussions
+    url: https://github.com/m-mdy-m/vero/discussions
+    about: 'For feature discussions and general feedback, use GitHub Discussions.'
