@@ -12,8 +12,8 @@ Right now it’s just an idea and an early draft. The goal is to build a minimal
 ## Documentation
 
 - [Architecture](docs/architecture.md)
-- [API Documentation](http://localhost:3000/api-docs)
-- [Contributing Guide](CONTRIBUTING.md)
+- [API Documentation](http://localhost:3000/api-docs) (__not_yet__)
+- [Contributing Guide](./docs/guides/CONTRIBUTING.md)
 - [ADRs](docs/ADR/)
 
 ## Contributing
