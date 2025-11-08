@@ -1,3 +1,7 @@
-src/**/*.d.ts
-src/**/*.js
+node_modules
+dist
+build
+coverage
+.env
+.env.*
 pnpm-lock.yaml
