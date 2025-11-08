@@ -2,7 +2,7 @@
   "name": "vero",
   "version": "1.0.0",
   "description": "A text platform for writing theories and scientific evaluation;",
-  "main": "index.js",
+  "private": true,
   "directories": {
     "doc": "docs"
   },
@@ -17,10 +17,18 @@
     "url": "git+https://github.com/m-mdy-m/Vero.git"
   },
   "engines": {
-    "typescript": ">=5"
+    "typescript": ">=5",
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
   },
   "lint-staged": {
-    "**/*.ts": "prettier --ignore-path ./.prettierignore --write"
+    "*.{ts,js}": [
+      "eslint --fix",
+      "prettier --ignore-path ./.prettierignore --write"
+    ],
+    "*.{json,md}": [
+      "prettier --ignore-path ./.prettierignore --write"
+    ]
   },
   "keywords": [
     "platform",
