@@ -1,8 +1,36 @@
 {
-    "compilerOptions": {
-        "module": "commonjs"
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "useUnknownInCatchVariables": false,
+    "allowJs": false,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "types": ["node"],
+    "paths": {
+      "@vero/api": ["./apps/api"]
     },
-    "exclude": [
-        "node_modules"
-    ]
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "strictPropertyInitialization": false,
+    "noLib": false
+  },
+  "include": ["apps/**/*"],
+  "compileOnSave": true,
+  "buildOnSave": true,
+  "preserveSymlinks": true,
+  "exclude": ["node_modules"]
 }

@@ -1,0 +1,39 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "backend api",
+  "main": "main.js",
+  "scripts": {
+    "start": "",
+    "start:debug": "",
+    "format": "",
+    "build": "",
+    "build:watch": "",
+    "test": "",
+    "test:watch": "",
+    "test:cov": "",
+    "lint": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-mdy-m/Vero.git"
+  },
+  "keywords": [
+    "platform",
+    "chat",
+    "vero"
+  ],
+  "author": "Mahdi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m-mdy-m/Vero/issues"
+  },
+  "homepage": "https://github.com/m-mdy-m/Vero#readme",
+  "dependencies": {
+    "@nestjs/common": "^11.1.8",
+    "@nestjs/core": "^11.1.8"
+  },
+  "devDependencies": {
+    "@nestjs/platform-express": "^11.1.8"
+  }
+}
